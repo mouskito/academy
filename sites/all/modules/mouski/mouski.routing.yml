@@ -1,0 +1,6 @@
+mouski:
+    path: '/mouski'
+    defaults:
+        _controller: 'Drupal\mouski\Controller\MouskiController::hello'
+    requirements:
+        _permission: 'access content'
